@@ -1,0 +1,61 @@
+/* provide a overall good UI  */
+
+*{
+  background-color:   #EAF9D9;
+}
+body{
+    text-align: center;
+
+}
+#container{
+    height:70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#game{
+    height: 65vh;
+    width: 65vh;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+   
+}
+.button{
+    height:20vh;
+    width: 20vh;
+    background-color:#653239;
+    box-shadow:5px 5px 10px rgba(0,0,0,0.5);
+    border:none;
+    cursor: pointer;
+    transition-property:background-color;
+    transition-duration: 0.2ms;
+    transition-timing-function: ease-in;
+    border-radius: 15px;
+    font-size: 50px;
+    color: white;
+}
+button:hover{
+    background-color: rgba(147, 146, 146, 0.3);
+}
+
+#resetbutton{
+    height: 30px;
+    width: 80px;
+    font-size: 20px;
+    font-weight:bold;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    margin-top: 20px;
+}
+
+#playerStatus{
+ color: green;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-size: 38px;
+}
