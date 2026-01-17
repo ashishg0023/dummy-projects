@@ -23,7 +23,7 @@ This project is perfect for beginners learning **DOM manipulation**, **event han
 ---
 
 ## 📂 Project Structure
-ic-tac-toe/
+tic-tac-toe/
 │
 ├── index.html # Main HTML file
 ├── style.css # Game styling
